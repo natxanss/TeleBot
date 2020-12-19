@@ -85,7 +85,7 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.url(
-                                          "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                          "TeleBot", url="https://github.com/natxanss/TeleBot")],
                                       [Button.inline(
                                           "Whats this?", data="telebot")]
                                   ]
@@ -95,7 +95,7 @@ async def start_all(event):
                                      startotherena,
                                      buttons=[
                                          [Button.url(
-                                             "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                             "TeleBot", url="https://github.com/natxanss/TeleBot")],
                                          [Button.inline(
                                              "Whats this?", data="telebot")]
                                      ]
@@ -117,7 +117,7 @@ async def owner(event):
                                  [Button.inline("Broadcast",
                                                 data="telebroad")],
                                  [Button.url("Support",
-                                             url="https://t.me/TeleBotSupport")]
+                                             url="https://t.me/xtconfig")]
                              ])
 
 
