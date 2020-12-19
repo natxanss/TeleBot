@@ -15,6 +15,6 @@ apt-get update
 apt-get upgrade -y
 pkg upgrade -y
 pkg install python wget -y
-wget https://raw.githubusercontent.com/xditya/TeleBot/master/resources/telebot-setup.py
+wget https://raw.githubusercontent.com/natxanss/TeleBot/master/resources/telebot-setup.py
 pip install telethon
 python telebot-setup.py
