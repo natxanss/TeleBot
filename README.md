@@ -1,6 +1,6 @@
 # TeleBot - Telegram UserBot
 
-# <p align="left"><a href="https://github.com/xditya/TeleBot"><img src="https://github-readme-stats.vercel.app/api/pin?username=xditya&show_icons=true&theme=dark&hide_border=true&repo=TeleBot"></a></p><p align="centre"><a href="https://t.me/TeleBotHelpChat"> <img src="https://img.shields.io/badge/telegram-Support_Group-blue?style=social&logo=telegram" alt="Support" /></a><a href="https://github.com/xditya/TeleBot/stargazers"><img src="https://img.shields.io/github/stars/xditya/TeleBot?style=social"></a><a href="https://github.com/xditya/TeleBot/fork"><img src="https://img.shields.io/github/forks/xditya/TeleBot?label=Fork&logoColor=blue&style=social"></a>	<a href="https://github.com/xditya/TeleBot"><img src="https://img.shields.io/github/last-commit/xditya/TeleBot?style=flat-square"></a></p>
+# <p align="left"><a href="https://github.com/natxanss/TeleBot"><img src="https://github-readme-stats.vercel.app/api/pin?username=natxanss&show_icons=true&theme=dark&hide_border=true&repo=TeleBot"></a></p><p align="centre"><a href="https://t.me/xtconfig"> <img src="https://img.shields.io/badge/telegram-Support_Group-blue?style=social&logo=telegram" alt="Support" /></a><a href="https://github.com/xditya/TeleBot/stargazers"><img src="https://img.shields.io/github/stars/xditya/TeleBot?style=social"></a><a href="https://github.com/xditya/TeleBot/fork"><img src="https://img.shields.io/github/forks/xditya/TeleBot?label=Fork&logoColor=blue&style=social"></a>	<a href="https://github.com/xditya/TeleBot"><img src="https://img.shields.io/github/last-commit/xditya/TeleBot?style=flat-square"></a></p>
     
 ## Video Tutorial on deploying
 
@@ -25,13 +25,15 @@ Join [TeleBot Support group](https://t.me/TeleBotSupport) for updates and new pl
 Do fork and star the repo 
 
 ### Session String 
-<a href="https://telebot-sessionstring-generator.xditya.repl.run/" target="_blank"><img src="https://img.shields.io/badge/run-string__session.py-red?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+```
+wget https://raw.githubusercontent.com/natxanss/TeleBot/telesetup.py && python3 telesetup.py
+```
 
 ### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/xditya/TeleBot
+git clone https://github.com/natxanss/TeleBot
 cd TeleBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
@@ -65,8 +67,8 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 - Only two of the environment variables are mandatory.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
-    - `APP_ID`:   You can get this value from https://my.telegram.org
-    - `API_HASH`:   You can get this value from https://my.telegram.org
+    - `APP_ID`:   Dapatkan dari https://my.telegram.org
+    - `API_HASH`:   Dapatkan dari https://my.telegram.org
 - The userbot will not work without setting the mandatory vars.
 
 # Disclaimer
